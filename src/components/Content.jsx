@@ -2,6 +2,9 @@ import React from 'react';
 import { VscSettingsGear } from 'react-icons/vsc';
 import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
 import About from './About';
+import LatestProducts from './LatestProducts';
+import PriceList from './PriceList';
+import ProductGallery from './ProductGallery';
 
 function Content() {
     return (
@@ -36,6 +39,9 @@ function Content() {
             </div>
 
             <About />
+            <LatestProducts />
+            <PriceList />
+            <ProductGallery />
         </>
     );
 }
